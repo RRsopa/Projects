@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test_project.PlatesController">
+    <top>
+        <Pane prefHeight="70.0" prefWidth="960.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="WHITE" layoutX="50.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matriculas">
+                    <font>
+                        <Font name="Gill Sans MT Bold" size="28.0" />
+                    </font>
+                </Text>
+                <MenuButton layoutX="630.0" layoutY="41.0" minWidth="100.0" mnemonicParsing="false" text="Menu">
+                    <items>
+                        <MenuItem fx:id="MIAccess" mnemonicParsing="false" onAction="#goToAccess" text="Acessos" />
+                        <MenuItem fx:id="MIClientArea" mnemonicParsing="false" onAction="#goToClientArea" text="Área Cliente" />
+                        <MenuItem fx:id="MIPlans" mnemonicParsing="false" onAction="#goToPlans" text="Planos" />
+                    </items>
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+                </MenuButton>
+                <Button layoutX="830.0" layoutY="20.0" mnemonicParsing="false" onAction="#logoutCommand" prefHeight="30.0" prefWidth="80.0" text="Logout">
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </top>
+    <center>
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #153034;" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane layoutX="230.0" maxWidth="500.0" prefHeight="470.0" prefWidth="500.0" style="-fx-background-color: #314E52;">
+                    <children>
+                        <Text fill="#f2a154" layoutX="197.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matriculas">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Text>
+                        <ListView fx:id="listMatriculas" layoutY="118.0" onMouseClicked="#getMatricula" prefHeight="169.0" prefWidth="500.0" style="-fx-background-color: #314E52;" />
+                        <TextField fx:id="txtmatricula" layoutX="176.0" layoutY="81.0" />
+                        <Button layoutX="332.0" layoutY="81.0" mnemonicParsing="false" onAction="#AdicionarMatricula" text="Adicionar" />
+                        <Button layoutX="405.0" layoutY="81.0" mnemonicParsing="false" onAction="#RemoverMatricula" text="Remover" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </Pane>
+    </center>
+</BorderPane>

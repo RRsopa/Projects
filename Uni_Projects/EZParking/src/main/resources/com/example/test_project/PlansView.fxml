@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test_project.PlansController">
+    <top>
+        <Pane prefHeight="70.0" prefWidth="960.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="WHITE" layoutX="50.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acessos">
+                    <font>
+                        <Font name="Gill Sans MT Bold" size="28.0" />
+                    </font>
+                </Text>
+                <MenuButton layoutX="630.0" layoutY="41.0" minWidth="100.0" mnemonicParsing="false" text="Menu">
+                    <items>
+                        <MenuItem fx:id="MIPlates" mnemonicParsing="false" onAction="#goToPlates" text="Matrículas" />
+                        <MenuItem fx:id="MIClientArea" mnemonicParsing="false" onAction="#goToClientArea" text="Área Cliente" />
+                        <MenuItem fx:id="MIAccess" mnemonicParsing="false" onAction="#goToAccess" text="Acessos" />
+                    </items>
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+                </MenuButton>
+                <Button layoutX="830.0" layoutY="20.0" mnemonicParsing="false" onAction="#logoutCommand" prefHeight="30.0" prefWidth="80.0" text="Logout">
+                    <font>
+                        <Font name="Calibri" size="16.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </top>
+    <center>
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #153034;" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane layoutX="242.0" maxWidth="500.0" prefHeight="470.0" prefWidth="500.0" style="-fx-background-color: #314E52;">
+                    <children>
+                        <Text fill="#f2a154" layoutX="50.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regimes">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Text>
+                        <Text fill="#f2a154" layoutX="50.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Planos">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="txtRegimes" fill="WHITE" layoutX="50.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regime:" underline="true">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="txtPlans" fill="WHITE" layoutX="50.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano:" underline="true">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Text>
+                  <Button layoutX="224.0" layoutY="385.0" mnemonicParsing="false" text="Aderir" />
+                  <Text fx:id="txtPreco" fill="WHITE" layoutX="248.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                  <RadioButton fx:id="Livre" layoutX="146.0" layoutY="36.0" mnemonicParsing="false" onAction="#SelectLivre" prefHeight="17.0" prefWidth="89.0" text="Livre" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Regimes" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="Basic" layoutX="134.0" layoutY="186.0" mnemonicParsing="false" onAction="#SelectBasic" prefHeight="17.0" prefWidth="94.0" text="Basic" textFill="WHITE">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="Planos" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="Premium" layoutX="228.0" layoutY="186.0" mnemonicParsing="false" onAction="#SelectPremium" prefHeight="17.0" prefWidth="94.0" text="Premium" textFill="WHITE" toggleGroup="$Planos" />
+                  <RadioButton fx:id="Laboral" layoutX="235.0" layoutY="36.0" mnemonicParsing="false" onAction="#SelectLaboral" prefHeight="17.0" prefWidth="89.0" text="Laboral" textFill="WHITE" toggleGroup="$Regimes" />
+                  <RadioButton fx:id="PosLaboral" layoutX="324.0" layoutY="36.0" mnemonicParsing="false" onAction="#SelectPosLaboral" prefHeight="17.0" prefWidth="89.0" text="Pós Laboral" textFill="WHITE" toggleGroup="$Regimes" />
+                  <RadioButton fx:id="Gold" layoutX="324.0" layoutY="186.0" mnemonicParsing="false" onAction="#SelectGold" prefHeight="17.0" prefWidth="94.0" text="Gold" textFill="WHITE" toggleGroup="$Planos" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </Pane>
+    </center>
+</BorderPane>

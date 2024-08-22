@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test_project.RegisterController">
+    <top>
+        <Pane prefHeight="70.0" prefWidth="960.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="WHITE" layoutX="50.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registo">
+                    <font>
+                        <Font name="Gill Sans MT Bold" size="28.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </top>
+   <center>
+          <AnchorPane prefHeight="470.0" prefWidth="355.0" style="-fx-background-color: #F2A154;" BorderPane.alignment="CENTER">
+              <children>
+                  <Text fill="WHITE" layoutX="188.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registo De Utilizador">
+                      <font>
+                          <Font name="Calibri Bold" size="24.0" />
+                      </font>
+                  </Text>
+                  <TextField fx:id="userField" layoutX="189.0" layoutY="189.0" prefWidth="200.0" />
+                  <Text fill="WHITE" layoutX="189.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+                      <font>
+                          <Font name="Calibri" size="16.0" />
+                      </font>
+                  </Text>
+                  <PasswordField fx:id="passwordField" layoutX="189.0" layoutY="254.0" prefWidth="200.0" />
+                  <Text fill="WHITE" layoutX="189.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                      <font>
+                          <Font name="Calibri" size="16.0" />
+                      </font>
+                  </Text>
+                  <Text fx:id="wrongPasswordLabel" fill="RED" layoutX="190.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.0">
+                      <font>
+                          <Font name="Calibri" size="16.0" />
+                      </font>
+                  </Text>
+                  <Button layoutX="250.0" layoutY="363.0" mnemonicParsing="false" onAction="#RegisterUser" prefHeight="30.0" prefWidth="80.0" text="Registar">
+                      <font>
+                          <Font name="Calibri" size="16.0" />
+                      </font>
+                  </Button>
+            <Text fill="WHITE" layoutX="192.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmar Password">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="passwordField1" layoutX="192.0" layoutY="315.0" prefWidth="200.0" />
+            <Text fx:id="wrongPasswordLabel1" fill="RED" layoutX="193.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.0">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="189.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email do Utilizador">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="emailField" layoutX="189.0" layoutY="126.0" prefWidth="200.0" />
+            <Text fx:id="wrongEmailLabel" fill="RED" layoutX="191.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="196.0">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+              </children>
+          </AnchorPane>
+   </center>
+   <right>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #314E52;" BorderPane.alignment="CENTER" />
+   </right>
+   <left>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #314E52;" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test_project.LoginController">
+    <top>
+        <Pane prefHeight="70.0" prefWidth="960.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="WHITE" layoutX="50.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+                    <font>
+                        <Font name="Gill Sans MT Bold" size="28.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </top>
+    <center>
+        <GridPane BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F2A154;">
+                    <children>
+                        <Text fill="WHITE" layoutX="176.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Área Clientes">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Text>
+                        <TextField fx:id="emailField" layoutX="140.0" layoutY="150.0" prefWidth="200.0" />
+                        <Text fill="WHITE" layoutX="140.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email do Utilizador">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Text>
+                        <PasswordField fx:id="passwordField" layoutX="140.0" layoutY="250.0" prefWidth="200.0" />
+                        <Text fill="WHITE" layoutX="140.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Text>
+                        <Button layoutX="140.0" layoutY="351.0" mnemonicParsing="false" onAction="#AuthenticateUser" prefHeight="30.0" prefWidth="80.0" text="Entrar">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Button>
+                        <Text fx:id="wrongEmailLabel" fill="RED" layoutX="140.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="wrongPasswordLabel" fill="RED" layoutX="140.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Text>
+                  <Button layoutX="260.0" layoutY="351.0" mnemonicParsing="false" onAction="#RegisterUser" prefHeight="30.0" prefWidth="80.0" text="Registar">
+                     <font>
+                        <Font name="Calibri" size="16.0" />
+                     </font>
+                  </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #314E52;" GridPane.columnIndex="1">
+                    <children>
+                        <Button fx:id="accessPlate" layoutX="200.0" layoutY="350.0" mnemonicParsing="false" onAction="#getPlate" prefHeight="30.0" prefWidth="80.0" text="Aceder">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Button>
+                        <Text fill="WHITE" layoutX="192.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matrícula">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0" />
+                            </font>
+                        </Text>
+                        <TextField fx:id="plateField" layoutX="140.0" layoutY="150.0" prefWidth="200.0" promptText="00AA00" />
+                        <Text fill="WHITE" layoutX="140.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matrícula">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Text>
+                        <Text fx:id="incorrectPlateFormat" fill="#ff1d1d" layoutX="140.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                            <font>
+                                <Font name="Calibri" size="16.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </AnchorPane>
+            </children>
+        </GridPane>
+    </center>
+</BorderPane>

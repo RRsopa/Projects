@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="960.0" style="-fx-background-color: #153034;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ezparking.RegisterController">
+   <children>
+      <AnchorPane layoutX="230.0" prefHeight="470.0" prefWidth="500.0" style="-fx-background-color: #F2A154;">
+         <children>
+            <Text fill="#153034" layoutX="143.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registo De Utilizador">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Text>
+            <TextField fx:id="userField" layoutX="144.0" layoutY="172.0" prefWidth="200.0" />
+            <Text fill="WHITE" layoutX="144.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="contactField" layoutX="144.0" layoutY="227.0" prefWidth="200.0" />
+            <Text fill="WHITE" layoutX="144.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contacto">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="wrongPasswordLabel" fill="RED" layoutX="145.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.0">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <Button layoutX="205.0" layoutY="382.0" mnemonicParsing="false" onAction="#RegisterUser" prefHeight="30.0" prefWidth="80.0" text="Registar">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="144.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="passwordField" layoutX="144.0" layoutY="282.0" prefWidth="200.0" />
+            <Text fx:id="wrongPasswordLabel1" fill="RED" layoutX="148.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.0">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="144.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email do Utilizador">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="emailField" layoutX="144.0" layoutY="117.0" prefWidth="200.0" />
+            <Text fx:id="wrongEmailLabel" fill="RED" layoutX="146.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="196.0">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="144.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmar Password">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="checkPasswordField" layoutX="144.0" layoutY="337.0" prefWidth="200.0" />
+            <Text fx:id="emailError" fill="RED" layoutX="355.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="nameError" fill="RED" layoutX="355.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="contactError" fill="RED" layoutX="355.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="passwordError" fill="RED" layoutX="355.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Text>
+            <Text fx:id="checkPasswordError" fill="RED" layoutX="355.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

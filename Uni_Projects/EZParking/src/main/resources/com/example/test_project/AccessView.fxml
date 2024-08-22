@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0"
+            prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.test_project.AccessController">
+    <top>
+        <Pane prefHeight="70.0" prefWidth="960.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="WHITE" layoutX="50.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acessos">
+                    <font>
+                        <Font name="Gill Sans MT Bold" size="28.0"/>
+                    </font>
+                </Text>
+                <MenuButton layoutX="630.0" layoutY="41.0" minWidth="100.0" mnemonicParsing="false" text="Menu">
+                    <items>
+                        <MenuItem fx:id="MIPlates" mnemonicParsing="false" onAction="#goToPlates" text="Matrículas"/>
+                        <MenuItem fx:id="MIClientArea" mnemonicParsing="false" onAction="#goToClientArea"
+                                  text="Área Cliente"/>
+                        <MenuItem fx:id="MIPlans" mnemonicParsing="false" onAction="#goToPlans" text="Planos"/>
+                    </items>
+                    <font>
+                        <Font name="Calibri" size="16.0"/>
+                    </font>
+                </MenuButton>
+                <Button layoutX="830.0" layoutY="20.0" mnemonicParsing="false"
+                        onAction="#logoutCommand" prefHeight="30.0" prefWidth="80.0" text="Logout">
+                    <font>
+                        <Font name="Calibri" size="16.0"/>
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </top>
+    <center>
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #153034;" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane layoutX="230.0" maxWidth="500.0" prefHeight="470.0" prefWidth="500.0"
+                            style="-fx-background-color: #314E52;">
+                    <children>
+                        <Text fill="#f2a154" layoutX="148.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                              text="Histórico de Acessos">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0"/>
+                            </font>
+                        </Text>
+                        <TableView layoutX="28.0" layoutY="56.0" prefHeight="300.0" prefWidth="450.0">
+                            <columns>
+                                <TableColumn fx:id="Park" prefWidth="75.0" text="Parque"/>
+                                <TableColumn fx:id="Plate" prefWidth="75.0" text="Matricula"/>
+                                <TableColumn fx:id="Entry" prefWidth="75.0" text="Entrada"/>
+                                <TableColumn fx:id="Exit" prefWidth="75.0" text="Saida"/>
+                                <TableColumn fx:id="Price" prefWidth="75.0" text="Preço"/>
+                                <TableColumn fx:id="Paid" prefWidth="75.0" text="Pago"/>
+                            </columns>
+                        </TableView>
+                        <Button fx:id="Paybtn" layoutX="377.0" layoutY="403.0" mnemonicParsing="false" prefHeight="30.0"
+                                prefWidth="80.0" text="Pagar">
+                            <font>
+                                <Font name="Calibri" size="16.0"/>
+                            </font>
+                        </Button>
+                        <Text fx:id="txtPay" fill="#f2a154" layoutX="28.0" layoutY="424.0" strokeType="OUTSIDE"
+                              strokeWidth="0.0" wrappingWidth="337.0">
+                            <font>
+                                <Font name="Calibri Bold" size="24.0"/>
+                            </font>
+                        </Text>
+                    </children>
+                </AnchorPane>
+            </children>
+        </Pane>
+    </center>
+</BorderPane>

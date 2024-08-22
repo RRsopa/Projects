@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="470.0" prefWidth="960.0" style="-fx-background-color: #153034;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ezparking.SubscriptionsController">
+   <children>
+      <AnchorPane layoutX="242.0" maxWidth="500.0" prefHeight="470.0" prefWidth="500.0" style="-fx-background-color: #314E52;">
+         <children>
+            <Text fill="#f2a154" layoutX="50.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subscrições">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fill="#f2a154" layoutX="50.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Planos">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="txtRegimes" fill="WHITE" layoutX="50.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dias Aplicáveis" underline="true">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="txtPlans" fill="WHITE" layoutX="50.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plano:" underline="true">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Button layoutX="215.0" layoutY="370.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" text="Aderir">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font></Button>
+            <Text fx:id="txtPreco" fill="WHITE" layoutX="248.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <ComboBox fx:id="subsComboBox" layoutX="260.0" layoutY="32.0" prefWidth="200.0" />
+            <ComboBox fx:id="plansComboBox" layoutX="260.0" layoutY="181.0" prefWidth="200.0" />
+            <Text fx:id="diasAplicaveis" fill="WHITE" layoutX="190.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Livre Segunda a Sexta" textAlignment="CENTER" wrappingWidth="115.74609375">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fx:id="maxPlates" fill="WHITE" layoutX="190.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Até 5 Matrículas" textAlignment="CENTER" wrappingWidth="115.74609375">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f2a154" layoutX="50.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Preço">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="maxPlates1" fill="WHITE" layoutX="190.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60€" textAlignment="CENTER" wrappingWidth="115.74609375">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

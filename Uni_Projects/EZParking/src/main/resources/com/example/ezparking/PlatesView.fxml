@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="470.0" prefWidth="960.0" style="-fx-background-color: #153034;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ezparking.PlatesController">
+   <children>
+      <AnchorPane layoutX="242.0" maxWidth="500.0" prefHeight="470.0" prefWidth="500.0" style="-fx-background-color: #314E52;">
+         <children>
+            <Text fill="#f2a154" layoutX="197.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matrículas">
+               <font>
+                  <Font name="Calibri Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="txtRegimes" fill="WHITE" layoutX="46.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adicionar Matrículas" underline="true">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="addPlateBtn" layoutX="315.0" layoutY="248.0" mnemonicParsing="false" onAction="#addPlate" prefHeight="30.0" prefWidth="100.0" text="Adicionar">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Button>
+            <Text fx:id="txtPreco" fill="WHITE" layoutX="248.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <ListView fx:id="platesList" layoutX="173.0" layoutY="70.0" onMouseClicked="#plateSelected" prefHeight="120.0" prefWidth="150.0" />
+            <TextField fx:id="addPlateField" layoutX="98.0" layoutY="250.0" onKeyTyped="#autoPlateCompleter" prefHeight="26.0" prefWidth="150.0">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="removePlateBtn" layoutX="315.0" layoutY="335.0" mnemonicParsing="false" onAction="#removePlate" prefHeight="30.0" prefWidth="100.0" text="Remover">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Button>
+            <Text fx:id="txtRegimes1" fill="WHITE" layoutX="46.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Editar Matrículas" underline="true">
+               <font>
+                  <Font name="Calibri" size="18.0" />
+               </font>
+            </Text>
+            <Label layoutX="130.0" layoutY="339.0" text="00 - AA - 00" textFill="#f2f2f2">
+               <font>
+                  <Font name="Calibri Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="98.0" layoutY="386.0" onKeyTyped="#autoPlateCompleter" prefHeight="26.0" prefWidth="150.0">
+               <font>
+                  <Font name="Calibri" size="14.0" />
+               </font>
+            </TextField>
+            <Button fx:id="editPlateBtn" layoutX="315.0" layoutY="384.0" mnemonicParsing="false" onAction="#editPlate" prefHeight="30.0" prefWidth="100.0" text="Editar">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
