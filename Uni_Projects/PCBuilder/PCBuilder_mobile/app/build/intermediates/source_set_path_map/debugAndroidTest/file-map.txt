@@ -1,0 +1,6 @@
+com.pcbuilder.test.app-annotation-experimental-1.3.0-0 C:\Users\RR\.gradle\caches\transforms-3\e0c2791b672c430de25ffbd4ebf11a3d\transformed\annotation-experimental-1.3.0\res
+com.pcbuilder.test.app-core-1.5.0-1 C:\Users\RR\.gradle\caches\transforms-3\f65d44d41496144a554b40b757a91a5e\transformed\core-1.5.0\res
+com.pcbuilder.test.app-androidTest-2 C:\Users\RR\Desktop\Tudo Meu\PCBuilder\PCBuilder_mobile\app\build\generated\res\resValues\androidTest\debug
+com.pcbuilder.test.app-mergeDebugAndroidTestResources-3 C:\Users\RR\Desktop\Tudo Meu\PCBuilder\PCBuilder_mobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.pcbuilder.test.app-mergeDebugAndroidTestResources-4 C:\Users\RR\Desktop\Tudo Meu\PCBuilder\PCBuilder_mobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.pcbuilder.test.app-merged_res-5 C:\Users\RR\Desktop\Tudo Meu\PCBuilder\PCBuilder_mobile\app\build\intermediates\merged_res\debugAndroidTest

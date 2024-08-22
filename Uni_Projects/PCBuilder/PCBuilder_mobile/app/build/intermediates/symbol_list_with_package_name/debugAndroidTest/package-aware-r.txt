@@ -1,0 +1,3 @@
+com.pcbuilder.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

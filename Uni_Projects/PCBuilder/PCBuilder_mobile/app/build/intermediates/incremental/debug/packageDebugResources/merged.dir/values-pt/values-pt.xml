@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="components">Componentes</string>
+    <string name="confPass">Confirmar Palavra Passe</string>
+    <string name="keep_login">Manter Login</string>
+    <string name="leave">Sair</string>
+    <string name="login">Entrar</string>
+    <string name="pass">Palavra Passe</string>
+    <string name="price">Preço</string>
+    <string name="register">Registar</string>
+    <string name="username">Nome de Utilizador</string>
+</resources>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginBottom="15dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtbuildname"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:gravity="center_vertical"
+                android:paddingStart="5dp"
+                android:text="Build Name"
+                tools:ignore="HardcodedText" />
+
+            <ImageButton
+                android:id="@+id/btnRenameBuild"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_menu_edit"
+                app:tint="@color/primary" />
+
+            <ImageButton
+                android:id="@+id/btnRemoveBuild"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_delete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/List"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/Info"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:paddingStart="5dp"
+                    android:text="Components" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:paddingEnd="5dp"
+                    android:text="@string/price" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cpu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtcpu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txtcpuprice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cooler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtcooler"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txtcoolerprice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/motherboard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtmotherboard"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txtmotherboardprice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ram"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtram"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txtramprice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/storage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtstorage"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txtstorageprice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gpu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtgpu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txtgpuprice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cases"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtcase"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txtcaseprice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/psu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtpsu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/txtpsuprice"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="end|center_vertical"
+                    android:padding="5dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compsFrag">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/TLCompTypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabcpu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="CPU"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabcooler"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Cooler" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabmotherboard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Motherboard" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="RAM" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabstorage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Storage" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabgpu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="GPU" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabcase"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Case" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabpsu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="PSU" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/placeholder_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TLCompTypes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

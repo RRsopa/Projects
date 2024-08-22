@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_gpu_item.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/gpu_item.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_psu_item.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/psu_item.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_register_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/register_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/menu_nav_menu.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/menu/nav_menu.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/menu-v26_nav_welcome.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/menu-v26/nav_welcome.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_cpu_item.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/cpu_item.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_case_item.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/case_item.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_motherboardlist_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/motherboardlist_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_motherboard_item.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/motherboard_item.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_ram_item.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/ram_item.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_cpulist_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/cpulist_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_psulist_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/psulist_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/menu_nav_welcome.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/menu/nav_welcome.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_storagelist_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/storagelist_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_coolerlist_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/coolerlist_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_build_card.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/build_card.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/drawable_logo.png.flat",
+        "source": "com.pcbuilder.app-main-33:/drawable/logo.png"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_builds_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/builds_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_removebuild_dialog.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/removebuild_dialog.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_welcome_view.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/welcome_view.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_user_view.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/user_view.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_storage_item.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/storage_item.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/menu-v26_nav_menu.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/menu-v26/nav_menu.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_cooler_item.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/cooler_item.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_renamebuild_dialog.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/renamebuild_dialog.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_ramlist_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/ramlist_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_gpulist_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/gpulist_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_caselist_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/caselist_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.pcbuilder.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_comps_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/comps_frag.xml"
+    },
+    {
+        "merged": "com.pcbuilder.app-merged_res-31:/layout_login_frag.xml.flat",
+        "source": "com.pcbuilder.app-main-33:/layout/login_frag.xml"
+    }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="danger">#DC3545</color>
+    <color name="dark">#343a40</color>
+    <color name="darkBackgroundColor">@color/dark</color>
+    <color name="darkTextColor">#FFFFFF</color>
+    <color name="info">#17A2B8</color>
+    <color name="light">#F8F9FA</color>
+    <color name="lightBackgroundColor">@color/light</color>
+    <color name="lightTextColor">#000000</color>
+    <color name="primary">#007BFF</color>
+    <color name="secondary">#6C757D</color>
+    <color name="success">#28A745</color>
+    <color name="warning">#FFC107</color>
+    <string name="app_name" translatable="false">PCBuilder</string>
+    <string name="buildModels" translatable="false">Builds</string>
+    <string name="components">Components</string>
+    <string name="confPass">Confirm Password</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="keep_login">Keep Login</string>
+    <string name="leave">Leave</string>
+    <string name="login">Login</string>
+    <string name="pass">Password</string>
+    <string name="price">Price</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <style name="Base.Theme.PCBuilder" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/lightBackgroundColor</item>
+        <item name="android:backgroundTint">@color/lightBackgroundColor</item>
+        <item name="android:textColorPrimary">@color/lightTextColor</item>
+        <item name="android:navigationBarColor">@color/light</item>
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="android:textColorPrimary">@color/darkTextColor</item>
+    </style>
+    <style name="EditTextStyle">
+        <item name="android:textColor">@color/lightTextColor</item>
+        <item name="android:backgroundTint">@color/primary</item>
+    </style>
+</resources>
